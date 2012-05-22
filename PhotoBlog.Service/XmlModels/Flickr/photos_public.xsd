@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:flickr="urn:flickr:user" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:creativeCommons="http://cyber.law.harvard.edu/rss/creativeCommonsRssModule.html" xmlns:media="http://search.yahoo.com/mrss/" attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import namespace="http://purl.org/dc/elements/1.1/" />
+  <xs:import namespace="urn:flickr:user" />
+  <xs:import namespace="http://search.yahoo.com/mrss/" />
+  <xs:element name="rss">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="channel">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="title" type="xs:string" />
+              <xs:element name="link" type="xs:string" />
+              <xs:element name="description" />
+              <xs:element name="pubDate" type="xs:string" />
+              <xs:element name="lastBuildDate" type="xs:string" />
+              <xs:element name="generator" type="xs:string" />
+              <xs:element name="image">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="url" type="xs:string" />
+                    <xs:element name="title" type="xs:string" />
+                    <xs:element name="link" type="xs:string" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element maxOccurs="unbounded" name="item">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="title" type="xs:string" />
+                    <xs:element name="link" type="xs:string" />
+                    <xs:element name="description" type="xs:string" />
+                    <xs:element name="pubDate" type="xs:string" />
+                    <xs:element ref="dc:date.Taken" />
+                    <xs:element name="author">
+                      <xs:complexType>
+                        <xs:simpleContent>
+                          <xs:extension base="xs:string">
+                            <xs:attribute ref="flickr:profile" use="required" />
+                          </xs:extension>
+                        </xs:simpleContent>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="guid">
+                      <xs:complexType>
+                        <xs:simpleContent>
+                          <xs:extension base="xs:string">
+                            <xs:attribute name="isPermaLink" type="xs:boolean" use="required" />
+                          </xs:extension>
+                        </xs:simpleContent>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element ref="media:content" />
+                    <xs:element ref="media:title" />
+                    <xs:element minOccurs="0" ref="media:description" />
+                    <xs:element ref="media:thumbnail" />
+                    <xs:element ref="media:credit" />
+                    <xs:element minOccurs="0" ref="media:category" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+      <xs:attribute name="version" type="xs:decimal" use="required" />
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

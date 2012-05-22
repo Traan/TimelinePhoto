@@ -1,0 +1,1288 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>PhotoBlog.Service.Moles</name>
+    </assembly>
+    <members>
+        <member name="T:PhotoBlog.Service.XmlModels.Flickr.Moles.MAuthor">
+            <summary>Mole type of <see cref="T:PhotoBlog.Service.XmlModels.Flickr.Author"/>
+            .</summary>
+        </member>
+        <member name="M:PhotoBlog.Service.XmlModels.Flickr.Moles.MAuthor.#ctor">
+            <summary>Initializes a new mole</summary>
+        </member>
+        <member name="M:PhotoBlog.Service.XmlModels.Flickr.Moles.MAuthor.#ctor(PhotoBlog.Service.XmlModels.Flickr.Author)">
+            <summary>Initializes a new mole for the given instance</summary>
+        </member>
+        <member name="M:PhotoBlog.Service.XmlModels.Flickr.Moles.MAuthor.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:PhotoBlog.Service.XmlModels.Flickr.Moles.MAuthor.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:PhotoBlog.Service.XmlModels.Flickr.Moles.MAuthor.Behavior">
+            <summary>Assigns the behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:PhotoBlog.Service.XmlModels.Flickr.Moles.MAuthor.Constructor">
+            <summary>Sets the mole of <see cref="M:PhotoBlog.Service.XmlModels.Flickr.Author.#ctor"/>
+            </summary>
+        </member>
+        <member name="P:PhotoBlog.Service.XmlModels.Flickr.Moles.MAuthor.ProfileGet">
+            <summary>Sets the mole of <see cref="P:PhotoBlog.Service.XmlModels.Flickr.Author.Profile"/>
+            </summary>
+        </member>
+        <member name="P:PhotoBlog.Service.XmlModels.Flickr.Moles.MAuthor.ProfileSetUri">
+            <summary>Sets the mole of <see cref="P:PhotoBlog.Service.XmlModels.Flickr.Author.Profile"/>
+            </summary>
+        </member>
+        <member name="P:PhotoBlog.Service.XmlModels.Flickr.Moles.MAuthor.ValueGet">
+            <summary>Sets the mole of <see cref="P:PhotoBlog.Service.XmlModels.Flickr.Author.Value"/>
+            </summary>
+        </member>
+        <member name="P:PhotoBlog.Service.XmlModels.Flickr.Moles.MAuthor.ValueSetString">
+            <summary>Sets the mole of <see cref="P:PhotoBlog.Service.XmlModels.Flickr.Author.Value"/>
+            </summary>
+        </member>
+        <member name="T:PhotoBlog.Service.XmlModels.Flickr.Moles.MAuthor.AllInstances">
+            <summary>Define moles for all instances members</summary>
+        </member>
+        <member name="P:PhotoBlog.Service.XmlModels.Flickr.Moles.MAuthor.AllInstances.ProfileGet">
+            <summary>Sets the mole of <see cref="P:PhotoBlog.Service.XmlModels.Flickr.Author.Profile"/>
+            </summary>
+        </member>
+        <member name="P:PhotoBlog.Service.XmlModels.Flickr.Moles.MAuthor.AllInstances.ProfileSetUri">
+            <summary>Sets the mole of <see cref="P:PhotoBlog.Service.XmlModels.Flickr.Author.Profile"/>
+            </summary>
+        </member>
+        <member name="P:PhotoBlog.Service.XmlModels.Flickr.Moles.MAuthor.AllInstances.ValueGet">
+            <summary>Sets the mole of <see cref="P:PhotoBlog.Service.XmlModels.Flickr.Author.Value"/>
+            </summary>
+        </member>
+        <member name="P:PhotoBlog.Service.XmlModels.Flickr.Moles.MAuthor.AllInstances.ValueSetString">
+            <summary>Sets the mole of <see cref="P:PhotoBlog.Service.XmlModels.Flickr.Author.Value"/>
+            </summary>
+        </member>
+        <member name="T:PhotoBlog.Service.XmlModels.Flickr.Moles.MCategory">
+            <summary>Mole type of <see cref="T:PhotoBlog.Service.XmlModels.Flickr.Category"/>
+            .</summary>
+        </member>
+        <member name="M:PhotoBlog.Service.XmlModels.Flickr.Moles.MCategory.#ctor">
+            <summary>Initializes a new mole</summary>
+        </member>
+        <member name="M:PhotoBlog.Service.XmlModels.Flickr.Moles.MCategory.#ctor(PhotoBlog.Service.XmlModels.Flickr.Category)">
+            <summary>Initializes a new mole for the given instance</summary>
+        </member>
+        <member name="M:PhotoBlog.Service.XmlModels.Flickr.Moles.MCategory.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:PhotoBlog.Service.XmlModels.Flickr.Moles.MCategory.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:PhotoBlog.Service.XmlModels.Flickr.Moles.MCategory.Behavior">
+            <summary>Assigns the behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:PhotoBlog.Service.XmlModels.Flickr.Moles.MCategory.Constructor">
+            <summary>Sets the mole of <see cref="M:PhotoBlog.Service.XmlModels.Flickr.Category.#ctor"/>
+            </summary>
+        </member>
+        <member name="P:PhotoBlog.Service.XmlModels.Flickr.Moles.MCategory.SchemeGet">
+            <summary>Sets the mole of <see cref="P:PhotoBlog.Service.XmlModels.Flickr.Category.Scheme"/>
+            </summary>
+        </member>
+        <member name="P:PhotoBlog.Service.XmlModels.Flickr.Moles.MCategory.SchemeSetString">
+            <summary>Sets the mole of <see cref="P:PhotoBlog.Service.XmlModels.Flickr.Category.Scheme"/>
+            </summary>
+        </member>
+        <member name="P:PhotoBlog.Service.XmlModels.Flickr.Moles.MCategory.ValueGet">
+            <summary>Sets the mole of <see cref="P:PhotoBlog.Service.XmlModels.Flickr.Category.Value"/>
+            </summary>
+        </member>
+        <member name="P:PhotoBlog.Service.XmlModels.Flickr.Moles.MCategory.ValueSetString">
+            <summary>Sets the mole of <see cref="P:PhotoBlog.Service.XmlModels.Flickr.Category.Value"/>
+            </summary>
+        </member>
+        <member name="T:PhotoBlog.Service.XmlModels.Flickr.Moles.MCategory.AllInstances">
+            <summary>Define moles for all instances members</summary>
+        </member>
+        <member name="P:PhotoBlog.Service.XmlModels.Flickr.Moles.MCategory.AllInstances.SchemeGet">
+            <summary>Sets the mole of <see cref="P:PhotoBlog.Service.XmlModels.Flickr.Category.Scheme"/>
+            </summary>
+        </member>
+        <member name="P:PhotoBlog.Service.XmlModels.Flickr.Moles.MCategory.AllInstances.SchemeSetString">
+            <summary>Sets the mole of <see cref="P:PhotoBlog.Service.XmlModels.Flickr.Category.Scheme"/>
+            </summary>
+        </member>
+        <member name="P:PhotoBlog.Service.XmlModels.Flickr.Moles.MCategory.AllInstances.ValueGet">
+            <summary>Sets the mole of <see cref="P:PhotoBlog.Service.XmlModels.Flickr.Category.Value"/>
+            </summary>
+        </member>
+        <member name="P:PhotoBlog.Service.XmlModels.Flickr.Moles.MCategory.AllInstances.ValueSetString">
+            <summary>Sets the mole of <see cref="P:PhotoBlog.Service.XmlModels.Flickr.Category.Value"/>
+            </summary>
+        </member>
+        <member name="T:PhotoBlog.Service.XmlModels.Flickr.Moles.MChannel">
+            <summary>Mole type of <see cref="T:PhotoBlog.Service.XmlModels.Flickr.Channel"/>
+            .</summary>
+        </member>
+        <member name="M:PhotoBlog.Service.XmlModels.Flickr.Moles.MChannel.#ctor">
+            <summary>Initializes a new mole</summary>
+        </member>
+        <member name="M:PhotoBlog.Service.XmlModels.Flickr.Moles.MChannel.#ctor(PhotoBlog.Service.XmlModels.Flickr.Channel)">
+            <summary>Initializes a new mole for the given instance</summary>
+        </member>
+        <member name="M:PhotoBlog.Service.XmlModels.Flickr.Moles.MChannel.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:PhotoBlog.Service.XmlModels.Flickr.Moles.MChannel.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:PhotoBlog.Service.XmlModels.Flickr.Moles.MChannel.Behavior">
+            <summary>Assigns the behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:PhotoBlog.Service.XmlModels.Flickr.Moles.MChannel.Constructor">
+            <summary>Sets the mole of <see cref="M:PhotoBlog.Service.XmlModels.Flickr.Channel.#ctor"/>
+            </summary>
+        </member>
+        <member name="P:PhotoBlog.Service.XmlModels.Flickr.Moles.MChannel.DescriptionGet">
+            <summary>Sets the mole of <see cref="P:PhotoBlog.Service.XmlModels.Flickr.Channel.Description"/>
+            </summary>
+        </member>
+        <member name="P:PhotoBlog.Service.XmlModels.Flickr.Moles.MChannel.DescriptionSetString">
+            <summary>Sets the mole of <see cref="P:PhotoBlog.Service.XmlModels.Flickr.Channel.Description"/>
+            </summary>
+        </member>
+        <member name="P:PhotoBlog.Service.XmlModels.Flickr.Moles.MChannel.GeneratorGet">
+            <summary>Sets the mole of <see cref="P:PhotoBlog.Service.XmlModels.Flickr.Channel.Generator"/>
+            </summary>
+        </member>
+        <member name="P:PhotoBlog.Service.XmlModels.Flickr.Moles.MChannel.GeneratorSetString">
+            <summary>Sets the mole of <see cref="P:PhotoBlog.Service.XmlModels.Flickr.Channel.Generator"/>
+            </summary>
+        </member>
+        <member name="P:PhotoBlog.Service.XmlModels.Flickr.Moles.MChannel.ImageGet">
+            <summary>Sets the mole of <see cref="P:PhotoBlog.Service.XmlModels.Flickr.Channel.Image"/>
+            </summary>
+        </member>
+        <member name="P:PhotoBlog.Service.XmlModels.Flickr.Moles.MChannel.ImageSetImage">
+            <summary>Sets the mole of <see cref="P:PhotoBlog.Service.XmlModels.Flickr.Channel.Image"/>
+            </summary>
+        </member>
+        <member name="P:PhotoBlog.Service.XmlModels.Flickr.Moles.MChannel.ItemsGet">
+            <summary>Sets the mole of <see cref="P:PhotoBlog.Service.XmlModels.Flickr.Channel.Items"/>
+            </summary>
+        </member>
+        <member name="P:PhotoBlog.Service.XmlModels.Flickr.Moles.MChannel.ItemsSetItemArray">
+            <summary>Sets the mole of <see cref="P:PhotoBlog.Service.XmlModels.Flickr.Channel.Items"/>
+            </summary>
+        </member>
+        <member name="P:PhotoBlog.Service.XmlModels.Flickr.Moles.MChannel.LastBuildDateGet">
+            <summary>Sets the mole of <see cref="P:PhotoBlog.Service.XmlModels.Flickr.Channel.LastBuildDate"/>
+            </summary>
+        </member>
+        <member name="P:PhotoBlog.Service.XmlModels.Flickr.Moles.MChannel.LastBuildDateSetDateTime">
+            <summary>Sets the mole of <see cref="P:PhotoBlog.Service.XmlModels.Flickr.Channel.LastBuildDate"/>
+            </summary>
+        </member>
+        <member name="P:PhotoBlog.Service.XmlModels.Flickr.Moles.MChannel.LinkGet">
+            <summary>Sets the mole of <see cref="P:PhotoBlog.Service.XmlModels.Flickr.Channel.Link"/>
+            </summary>
+        </member>
+        <member name="P:PhotoBlog.Service.XmlModels.Flickr.Moles.MChannel.LinkSetString">
+            <summary>Sets the mole of <see cref="P:PhotoBlog.Service.XmlModels.Flickr.Channel.Link"/>
+            </summary>
+        </member>
+        <member name="P:PhotoBlog.Service.XmlModels.Flickr.Moles.MChannel.TitleGet">
+            <summary>Sets the mole of <see cref="P:PhotoBlog.Service.XmlModels.Flickr.Channel.Title"/>
+            </summary>
+        </member>
+        <member name="P:PhotoBlog.Service.XmlModels.Flickr.Moles.MChannel.TitleSetString">
+            <summary>Sets the mole of <see cref="P:PhotoBlog.Service.XmlModels.Flickr.Channel.Title"/>
+            </summary>
+        </member>
+        <member name="P:PhotoBlog.Service.XmlModels.Flickr.Moles.MChannel.pubDateGet">
+            <summary>Sets the mole of <see cref="P:PhotoBlog.Service.XmlModels.Flickr.Channel.pubDate"/>
+            </summary>
+        </member>
+        <member name="P:PhotoBlog.Service.XmlModels.Flickr.Moles.MChannel.pubDateSetDateTime">
+            <summary>Sets the mole of <see cref="P:PhotoBlog.Service.XmlModels.Flickr.Channel.pubDate"/>
+            </summary>
+        </member>
+        <member name="T:PhotoBlog.Service.XmlModels.Flickr.Moles.MChannel.AllInstances">
+            <summary>Define moles for all instances members</summary>
+        </member>
+        <member name="P:PhotoBlog.Service.XmlModels.Flickr.Moles.MChannel.AllInstances.DescriptionGet">
+            <summary>Sets the mole of <see cref="P:PhotoBlog.Service.XmlModels.Flickr.Channel.Description"/>
+            </summary>
+        </member>
+        <member name="P:PhotoBlog.Service.XmlModels.Flickr.Moles.MChannel.AllInstances.DescriptionSetString">
+            <summary>Sets the mole of <see cref="P:PhotoBlog.Service.XmlModels.Flickr.Channel.Description"/>
+            </summary>
+        </member>
+        <member name="P:PhotoBlog.Service.XmlModels.Flickr.Moles.MChannel.AllInstances.GeneratorGet">
+            <summary>Sets the mole of <see cref="P:PhotoBlog.Service.XmlModels.Flickr.Channel.Generator"/>
+            </summary>
+        </member>
+        <member name="P:PhotoBlog.Service.XmlModels.Flickr.Moles.MChannel.AllInstances.GeneratorSetString">
+            <summary>Sets the mole of <see cref="P:PhotoBlog.Service.XmlModels.Flickr.Channel.Generator"/>
+            </summary>
+        </member>
+        <member name="P:PhotoBlog.Service.XmlModels.Flickr.Moles.MChannel.AllInstances.ImageGet">
+            <summary>Sets the mole of <see cref="P:PhotoBlog.Service.XmlModels.Flickr.Channel.Image"/>
+            </summary>
+        </member>
+        <member name="P:PhotoBlog.Service.XmlModels.Flickr.Moles.MChannel.AllInstances.ImageSetImage">
+            <summary>Sets the mole of <see cref="P:PhotoBlog.Service.XmlModels.Flickr.Channel.Image"/>
+            </summary>
+        </member>
+        <member name="P:PhotoBlog.Service.XmlModels.Flickr.Moles.MChannel.AllInstances.ItemsGet">
+            <summary>Sets the mole of <see cref="P:PhotoBlog.Service.XmlModels.Flickr.Channel.Items"/>
+            </summary>
+        </member>
+        <member name="P:PhotoBlog.Service.XmlModels.Flickr.Moles.MChannel.AllInstances.ItemsSetItemArray">
+            <summary>Sets the mole of <see cref="P:PhotoBlog.Service.XmlModels.Flickr.Channel.Items"/>
+            </summary>
+        </member>
+        <member name="P:PhotoBlog.Service.XmlModels.Flickr.Moles.MChannel.AllInstances.LastBuildDateGet">
+            <summary>Sets the mole of <see cref="P:PhotoBlog.Service.XmlModels.Flickr.Channel.LastBuildDate"/>
+            </summary>
+        </member>
+        <member name="P:PhotoBlog.Service.XmlModels.Flickr.Moles.MChannel.AllInstances.LastBuildDateSetDateTime">
+            <summary>Sets the mole of <see cref="P:PhotoBlog.Service.XmlModels.Flickr.Channel.LastBuildDate"/>
+            </summary>
+        </member>
+        <member name="P:PhotoBlog.Service.XmlModels.Flickr.Moles.MChannel.AllInstances.LinkGet">
+            <summary>Sets the mole of <see cref="P:PhotoBlog.Service.XmlModels.Flickr.Channel.Link"/>
+            </summary>
+        </member>
+        <member name="P:PhotoBlog.Service.XmlModels.Flickr.Moles.MChannel.AllInstances.LinkSetString">
+            <summary>Sets the mole of <see cref="P:PhotoBlog.Service.XmlModels.Flickr.Channel.Link"/>
+            </summary>
+        </member>
+        <member name="P:PhotoBlog.Service.XmlModels.Flickr.Moles.MChannel.AllInstances.TitleGet">
+            <summary>Sets the mole of <see cref="P:PhotoBlog.Service.XmlModels.Flickr.Channel.Title"/>
+            </summary>
+        </member>
+        <member name="P:PhotoBlog.Service.XmlModels.Flickr.Moles.MChannel.AllInstances.TitleSetString">
+            <summary>Sets the mole of <see cref="P:PhotoBlog.Service.XmlModels.Flickr.Channel.Title"/>
+            </summary>
+        </member>
+        <member name="P:PhotoBlog.Service.XmlModels.Flickr.Moles.MChannel.AllInstances.pubDateGet">
+            <summary>Sets the mole of <see cref="P:PhotoBlog.Service.XmlModels.Flickr.Channel.pubDate"/>
+            </summary>
+        </member>
+        <member name="P:PhotoBlog.Service.XmlModels.Flickr.Moles.MChannel.AllInstances.pubDateSetDateTime">
+            <summary>Sets the mole of <see cref="P:PhotoBlog.Service.XmlModels.Flickr.Channel.pubDate"/>
+            </summary>
+        </member>
+        <member name="T:PhotoBlog.Service.XmlModels.Flickr.Moles.MContent">
+            <summary>Mole type of <see cref="T:PhotoBlog.Service.XmlModels.Flickr.Content"/>
+            .</summary>
+        </member>
+        <member name="M:PhotoBlog.Service.XmlModels.Flickr.Moles.MContent.#ctor">
+            <summary>Initializes a new mole</summary>
+        </member>
+        <member name="M:PhotoBlog.Service.XmlModels.Flickr.Moles.MContent.#ctor(PhotoBlog.Service.XmlModels.Flickr.Content)">
+            <summary>Initializes a new mole for the given instance</summary>
+        </member>
+        <member name="M:PhotoBlog.Service.XmlModels.Flickr.Moles.MContent.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:PhotoBlog.Service.XmlModels.Flickr.Moles.MContent.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:PhotoBlog.Service.XmlModels.Flickr.Moles.MContent.Behavior">
+            <summary>Assigns the behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:PhotoBlog.Service.XmlModels.Flickr.Moles.MContent.Constructor">
+            <summary>Sets the mole of <see cref="M:PhotoBlog.Service.XmlModels.Flickr.Content.#ctor"/>
+            </summary>
+        </member>
+        <member name="P:PhotoBlog.Service.XmlModels.Flickr.Moles.MContent.HeightGet">
+            <summary>Sets the mole of <see cref="P:PhotoBlog.Service.XmlModels.Flickr.Content.Height"/>
+            </summary>
+        </member>
+        <member name="P:PhotoBlog.Service.XmlModels.Flickr.Moles.MContent.HeightSetInt32">
+            <summary>Sets the mole of <see cref="P:PhotoBlog.Service.XmlModels.Flickr.Content.Height"/>
+            </summary>
+        </member>
+        <member name="P:PhotoBlog.Service.XmlModels.Flickr.Moles.MContent.TypeGet">
+            <summary>Sets the mole of <see cref="P:PhotoBlog.Service.XmlModels.Flickr.Content.Type"/>
+            </summary>
+        </member>
+        <member name="P:PhotoBlog.Service.XmlModels.Flickr.Moles.MContent.TypeSetString">
+            <summary>Sets the mole of <see cref="P:PhotoBlog.Service.XmlModels.Flickr.Content.Type"/>
+            </summary>
+        </member>
+        <member name="P:PhotoBlog.Service.XmlModels.Flickr.Moles.MContent.UrlGet">
+            <summary>Sets the mole of <see cref="P:PhotoBlog.Service.XmlModels.Flickr.Content.Url"/>
+            </summary>
+        </member>
+        <member name="P:PhotoBlog.Service.XmlModels.Flickr.Moles.MContent.UrlSetString">
+            <summary>Sets the mole of <see cref="P:PhotoBlog.Service.XmlModels.Flickr.Content.Url"/>
+            </summary>
+        </member>
+        <member name="P:PhotoBlog.Service.XmlModels.Flickr.Moles.MContent.WidthGet">
+            <summary>Sets the mole of <see cref="P:PhotoBlog.Service.XmlModels.Flickr.Content.Width"/>
+            </summary>
+        </member>
+        <member name="P:PhotoBlog.Service.XmlModels.Flickr.Moles.MContent.WidthSetInt32">
+            <summary>Sets the mole of <see cref="P:PhotoBlog.Service.XmlModels.Flickr.Content.Width"/>
+            </summary>
+        </member>
+        <member name="T:PhotoBlog.Service.XmlModels.Flickr.Moles.MContent.AllInstances">
+            <summary>Define moles for all instances members</summary>
+        </member>
+        <member name="P:PhotoBlog.Service.XmlModels.Flickr.Moles.MContent.AllInstances.HeightGet">
+            <summary>Sets the mole of <see cref="P:PhotoBlog.Service.XmlModels.Flickr.Content.Height"/>
+            </summary>
+        </member>
+        <member name="P:PhotoBlog.Service.XmlModels.Flickr.Moles.MContent.AllInstances.HeightSetInt32">
+            <summary>Sets the mole of <see cref="P:PhotoBlog.Service.XmlModels.Flickr.Content.Height"/>
+            </summary>
+        </member>
+        <member name="P:PhotoBlog.Service.XmlModels.Flickr.Moles.MContent.AllInstances.TypeGet">
+            <summary>Sets the mole of <see cref="P:PhotoBlog.Service.XmlModels.Flickr.Content.Type"/>
+            </summary>
+        </member>
+        <member name="P:PhotoBlog.Service.XmlModels.Flickr.Moles.MContent.AllInstances.TypeSetString">
+            <summary>Sets the mole of <see cref="P:PhotoBlog.Service.XmlModels.Flickr.Content.Type"/>
+            </summary>
+        </member>
+        <member name="P:PhotoBlog.Service.XmlModels.Flickr.Moles.MContent.AllInstances.UrlGet">
+            <summary>Sets the mole of <see cref="P:PhotoBlog.Service.XmlModels.Flickr.Content.Url"/>
+            </summary>
+        </member>
+        <member name="P:PhotoBlog.Service.XmlModels.Flickr.Moles.MContent.AllInstances.UrlSetString">
+            <summary>Sets the mole of <see cref="P:PhotoBlog.Service.XmlModels.Flickr.Content.Url"/>
+            </summary>
+        </member>
+        <member name="P:PhotoBlog.Service.XmlModels.Flickr.Moles.MContent.AllInstances.WidthGet">
+            <summary>Sets the mole of <see cref="P:PhotoBlog.Service.XmlModels.Flickr.Content.Width"/>
+            </summary>
+        </member>
+        <member name="P:PhotoBlog.Service.XmlModels.Flickr.Moles.MContent.AllInstances.WidthSetInt32">
+            <summary>Sets the mole of <see cref="P:PhotoBlog.Service.XmlModels.Flickr.Content.Width"/>
+            </summary>
+        </member>
+        <member name="T:PhotoBlog.Service.XmlModels.Flickr.Moles.MCredit">
+            <summary>Mole type of <see cref="T:PhotoBlog.Service.XmlModels.Flickr.Credit"/>
+            .</summary>
+        </member>
+        <member name="M:PhotoBlog.Service.XmlModels.Flickr.Moles.MCredit.#ctor">
+            <summary>Initializes a new mole</summary>
+        </member>
+        <member name="M:PhotoBlog.Service.XmlModels.Flickr.Moles.MCredit.#ctor(PhotoBlog.Service.XmlModels.Flickr.Credit)">
+            <summary>Initializes a new mole for the given instance</summary>
+        </member>
+        <member name="M:PhotoBlog.Service.XmlModels.Flickr.Moles.MCredit.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:PhotoBlog.Service.XmlModels.Flickr.Moles.MCredit.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:PhotoBlog.Service.XmlModels.Flickr.Moles.MCredit.Behavior">
+            <summary>Assigns the behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:PhotoBlog.Service.XmlModels.Flickr.Moles.MCredit.Constructor">
+            <summary>Sets the mole of <see cref="M:PhotoBlog.Service.XmlModels.Flickr.Credit.#ctor"/>
+            </summary>
+        </member>
+        <member name="P:PhotoBlog.Service.XmlModels.Flickr.Moles.MCredit.RoleGet">
+            <summary>Sets the mole of <see cref="P:PhotoBlog.Service.XmlModels.Flickr.Credit.Role"/>
+            </summary>
+        </member>
+        <member name="P:PhotoBlog.Service.XmlModels.Flickr.Moles.MCredit.RoleSetString">
+            <summary>Sets the mole of <see cref="P:PhotoBlog.Service.XmlModels.Flickr.Credit.Role"/>
+            </summary>
+        </member>
+        <member name="P:PhotoBlog.Service.XmlModels.Flickr.Moles.MCredit.ValueGet">
+            <summary>Sets the mole of <see cref="P:PhotoBlog.Service.XmlModels.Flickr.Credit.Value"/>
+            </summary>
+        </member>
+        <member name="P:PhotoBlog.Service.XmlModels.Flickr.Moles.MCredit.ValueSetString">
+            <summary>Sets the mole of <see cref="P:PhotoBlog.Service.XmlModels.Flickr.Credit.Value"/>
+            </summary>
+        </member>
+        <member name="T:PhotoBlog.Service.XmlModels.Flickr.Moles.MCredit.AllInstances">
+            <summary>Define moles for all instances members</summary>
+        </member>
+        <member name="P:PhotoBlog.Service.XmlModels.Flickr.Moles.MCredit.AllInstances.RoleGet">
+            <summary>Sets the mole of <see cref="P:PhotoBlog.Service.XmlModels.Flickr.Credit.Role"/>
+            </summary>
+        </member>
+        <member name="P:PhotoBlog.Service.XmlModels.Flickr.Moles.MCredit.AllInstances.RoleSetString">
+            <summary>Sets the mole of <see cref="P:PhotoBlog.Service.XmlModels.Flickr.Credit.Role"/>
+            </summary>
+        </member>
+        <member name="P:PhotoBlog.Service.XmlModels.Flickr.Moles.MCredit.AllInstances.ValueGet">
+            <summary>Sets the mole of <see cref="P:PhotoBlog.Service.XmlModels.Flickr.Credit.Value"/>
+            </summary>
+        </member>
+        <member name="P:PhotoBlog.Service.XmlModels.Flickr.Moles.MCredit.AllInstances.ValueSetString">
+            <summary>Sets the mole of <see cref="P:PhotoBlog.Service.XmlModels.Flickr.Credit.Value"/>
+            </summary>
+        </member>
+        <member name="T:PhotoBlog.Service.XmlModels.Flickr.Moles.MDescription">
+            <summary>Mole type of <see cref="T:PhotoBlog.Service.XmlModels.Flickr.Description"/>
+            .</summary>
+        </member>
+        <member name="M:PhotoBlog.Service.XmlModels.Flickr.Moles.MDescription.#ctor">
+            <summary>Initializes a new mole</summary>
+        </member>
+        <member name="M:PhotoBlog.Service.XmlModels.Flickr.Moles.MDescription.#ctor(PhotoBlog.Service.XmlModels.Flickr.Description)">
+            <summary>Initializes a new mole for the given instance</summary>
+        </member>
+        <member name="M:PhotoBlog.Service.XmlModels.Flickr.Moles.MDescription.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:PhotoBlog.Service.XmlModels.Flickr.Moles.MDescription.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:PhotoBlog.Service.XmlModels.Flickr.Moles.MDescription.Behavior">
+            <summary>Assigns the behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:PhotoBlog.Service.XmlModels.Flickr.Moles.MDescription.Constructor">
+            <summary>Sets the mole of <see cref="M:PhotoBlog.Service.XmlModels.Flickr.Description.#ctor"/>
+            </summary>
+        </member>
+        <member name="P:PhotoBlog.Service.XmlModels.Flickr.Moles.MDescription.TypeGet">
+            <summary>Sets the mole of <see cref="P:PhotoBlog.Service.XmlModels.Flickr.Description.Type"/>
+            </summary>
+        </member>
+        <member name="P:PhotoBlog.Service.XmlModels.Flickr.Moles.MDescription.TypeSetString">
+            <summary>Sets the mole of <see cref="P:PhotoBlog.Service.XmlModels.Flickr.Description.Type"/>
+            </summary>
+        </member>
+        <member name="P:PhotoBlog.Service.XmlModels.Flickr.Moles.MDescription.ValueGet">
+            <summary>Sets the mole of <see cref="P:PhotoBlog.Service.XmlModels.Flickr.Description.Value"/>
+            </summary>
+        </member>
+        <member name="P:PhotoBlog.Service.XmlModels.Flickr.Moles.MDescription.ValueSetString">
+            <summary>Sets the mole of <see cref="P:PhotoBlog.Service.XmlModels.Flickr.Description.Value"/>
+            </summary>
+        </member>
+        <member name="T:PhotoBlog.Service.XmlModels.Flickr.Moles.MDescription.AllInstances">
+            <summary>Define moles for all instances members</summary>
+        </member>
+        <member name="P:PhotoBlog.Service.XmlModels.Flickr.Moles.MDescription.AllInstances.TypeGet">
+            <summary>Sets the mole of <see cref="P:PhotoBlog.Service.XmlModels.Flickr.Description.Type"/>
+            </summary>
+        </member>
+        <member name="P:PhotoBlog.Service.XmlModels.Flickr.Moles.MDescription.AllInstances.TypeSetString">
+            <summary>Sets the mole of <see cref="P:PhotoBlog.Service.XmlModels.Flickr.Description.Type"/>
+            </summary>
+        </member>
+        <member name="P:PhotoBlog.Service.XmlModels.Flickr.Moles.MDescription.AllInstances.ValueGet">
+            <summary>Sets the mole of <see cref="P:PhotoBlog.Service.XmlModels.Flickr.Description.Value"/>
+            </summary>
+        </member>
+        <member name="P:PhotoBlog.Service.XmlModels.Flickr.Moles.MDescription.AllInstances.ValueSetString">
+            <summary>Sets the mole of <see cref="P:PhotoBlog.Service.XmlModels.Flickr.Description.Value"/>
+            </summary>
+        </member>
+        <member name="T:PhotoBlog.Service.DomainModels.Moles.MEntry">
+            <summary>Mole type of <see cref="T:PhotoBlog.Service.DomainModels.Entry"/>
+            .</summary>
+        </member>
+        <member name="M:PhotoBlog.Service.DomainModels.Moles.MEntry.#ctor">
+            <summary>Initializes a new mole</summary>
+        </member>
+        <member name="M:PhotoBlog.Service.DomainModels.Moles.MEntry.#ctor(PhotoBlog.Service.DomainModels.Entry)">
+            <summary>Initializes a new mole for the given instance</summary>
+        </member>
+        <member name="M:PhotoBlog.Service.DomainModels.Moles.MEntry.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:PhotoBlog.Service.DomainModels.Moles.MEntry.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:PhotoBlog.Service.DomainModels.Moles.MEntry.Behavior">
+            <summary>Assigns the behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:PhotoBlog.Service.DomainModels.Moles.MEntry.Constructor">
+            <summary>Sets the mole of <see cref="M:PhotoBlog.Service.DomainModels.Entry.#ctor"/>
+            </summary>
+        </member>
+        <member name="P:PhotoBlog.Service.DomainModels.Moles.MEntry.TitleGet">
+            <summary>Sets the mole of <see cref="P:PhotoBlog.Service.DomainModels.Entry.Title"/>
+            </summary>
+        </member>
+        <member name="P:PhotoBlog.Service.DomainModels.Moles.MEntry.TitleSetString">
+            <summary>Sets the mole of <see cref="P:PhotoBlog.Service.DomainModels.Entry.Title"/>
+            </summary>
+        </member>
+        <member name="T:PhotoBlog.Service.DomainModels.Moles.MEntry.AllInstances">
+            <summary>Define moles for all instances members</summary>
+        </member>
+        <member name="P:PhotoBlog.Service.DomainModels.Moles.MEntry.AllInstances.TitleGet">
+            <summary>Sets the mole of <see cref="P:PhotoBlog.Service.DomainModels.Entry.Title"/>
+            </summary>
+        </member>
+        <member name="P:PhotoBlog.Service.DomainModels.Moles.MEntry.AllInstances.TitleSetString">
+            <summary>Sets the mole of <see cref="P:PhotoBlog.Service.DomainModels.Entry.Title"/>
+            </summary>
+        </member>
+        <member name="T:PhotoBlog.Service.Repositories.Moles.MFlickrRepository">
+            <summary>Mole type of <see cref="T:PhotoBlog.Service.Repositories.FlickrRepository"/>
+            .</summary>
+        </member>
+        <member name="M:PhotoBlog.Service.Repositories.Moles.MFlickrRepository.#ctor">
+            <summary>Initializes a new mole</summary>
+        </member>
+        <member name="M:PhotoBlog.Service.Repositories.Moles.MFlickrRepository.#ctor(PhotoBlog.Service.Repositories.FlickrRepository)">
+            <summary>Initializes a new mole for the given instance</summary>
+        </member>
+        <member name="M:PhotoBlog.Service.Repositories.Moles.MFlickrRepository.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:PhotoBlog.Service.Repositories.Moles.MFlickrRepository.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:PhotoBlog.Service.Repositories.Moles.MFlickrRepository.Bind(PhotoBlog.Service.Repositories.IRepository)">
+            <summary>Binds the members of the interface to the mole.</summary>
+        </member>
+        <member name="P:PhotoBlog.Service.Repositories.Moles.MFlickrRepository.Behavior">
+            <summary>Assigns the behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:PhotoBlog.Service.Repositories.Moles.MFlickrRepository.ConstructorUri">
+            <summary>Sets the mole of <see cref="M:PhotoBlog.Service.Repositories.FlickrRepository.#ctor(System.Uri)"/>
+            </summary>
+        </member>
+        <member name="P:PhotoBlog.Service.Repositories.Moles.MFlickrRepository.GetEntries">
+            <summary>Sets the mole of <see cref="M:PhotoBlog.Service.Repositories.FlickrRepository.GetEntries"/>
+            </summary>
+        </member>
+        <member name="P:PhotoBlog.Service.Repositories.Moles.MFlickrRepository._GetEntriesb__1Item">
+            <summary>Sets the mole of <see cref="M:PhotoBlog.Service.Repositories.FlickrRepository.&lt;GetEntries&gt;b__1(PhotoBlog.Service.XmlModels.Flickr.Item)"/>
+            </summary>
+        </member>
+        <member name="T:PhotoBlog.Service.Repositories.Moles.MFlickrRepository.AllInstances">
+            <summary>Define moles for all instances members</summary>
+        </member>
+        <member name="P:PhotoBlog.Service.Repositories.Moles.MFlickrRepository.AllInstances.GetEntries">
+            <summary>Sets the mole of <see cref="M:PhotoBlog.Service.Repositories.FlickrRepository.GetEntries"/>
+            </summary>
+        </member>
+        <member name="T:PhotoBlog.Service.XmlModels.Flickr.Moles.MGuid">
+            <summary>Mole type of <see cref="T:PhotoBlog.Service.XmlModels.Flickr.Guid"/>
+            .</summary>
+        </member>
+        <member name="M:PhotoBlog.Service.XmlModels.Flickr.Moles.MGuid.#ctor">
+            <summary>Initializes a new mole</summary>
+        </member>
+        <member name="M:PhotoBlog.Service.XmlModels.Flickr.Moles.MGuid.#ctor(PhotoBlog.Service.XmlModels.Flickr.Guid)">
+            <summary>Initializes a new mole for the given instance</summary>
+        </member>
+        <member name="M:PhotoBlog.Service.XmlModels.Flickr.Moles.MGuid.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:PhotoBlog.Service.XmlModels.Flickr.Moles.MGuid.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:PhotoBlog.Service.XmlModels.Flickr.Moles.MGuid.Behavior">
+            <summary>Assigns the behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:PhotoBlog.Service.XmlModels.Flickr.Moles.MGuid.Constructor">
+            <summary>Sets the mole of <see cref="M:PhotoBlog.Service.XmlModels.Flickr.Guid.#ctor"/>
+            </summary>
+        </member>
+        <member name="P:PhotoBlog.Service.XmlModels.Flickr.Moles.MGuid.IsPermaLinkGet">
+            <summary>Sets the mole of <see cref="P:PhotoBlog.Service.XmlModels.Flickr.Guid.IsPermaLink"/>
+            </summary>
+        </member>
+        <member name="P:PhotoBlog.Service.XmlModels.Flickr.Moles.MGuid.IsPermaLinkSetBoolean">
+            <summary>Sets the mole of <see cref="P:PhotoBlog.Service.XmlModels.Flickr.Guid.IsPermaLink"/>
+            </summary>
+        </member>
+        <member name="P:PhotoBlog.Service.XmlModels.Flickr.Moles.MGuid.ValueGet">
+            <summary>Sets the mole of <see cref="P:PhotoBlog.Service.XmlModels.Flickr.Guid.Value"/>
+            </summary>
+        </member>
+        <member name="P:PhotoBlog.Service.XmlModels.Flickr.Moles.MGuid.ValueSetString">
+            <summary>Sets the mole of <see cref="P:PhotoBlog.Service.XmlModels.Flickr.Guid.Value"/>
+            </summary>
+        </member>
+        <member name="T:PhotoBlog.Service.XmlModels.Flickr.Moles.MGuid.AllInstances">
+            <summary>Define moles for all instances members</summary>
+        </member>
+        <member name="P:PhotoBlog.Service.XmlModels.Flickr.Moles.MGuid.AllInstances.IsPermaLinkGet">
+            <summary>Sets the mole of <see cref="P:PhotoBlog.Service.XmlModels.Flickr.Guid.IsPermaLink"/>
+            </summary>
+        </member>
+        <member name="P:PhotoBlog.Service.XmlModels.Flickr.Moles.MGuid.AllInstances.IsPermaLinkSetBoolean">
+            <summary>Sets the mole of <see cref="P:PhotoBlog.Service.XmlModels.Flickr.Guid.IsPermaLink"/>
+            </summary>
+        </member>
+        <member name="P:PhotoBlog.Service.XmlModels.Flickr.Moles.MGuid.AllInstances.ValueGet">
+            <summary>Sets the mole of <see cref="P:PhotoBlog.Service.XmlModels.Flickr.Guid.Value"/>
+            </summary>
+        </member>
+        <member name="P:PhotoBlog.Service.XmlModels.Flickr.Moles.MGuid.AllInstances.ValueSetString">
+            <summary>Sets the mole of <see cref="P:PhotoBlog.Service.XmlModels.Flickr.Guid.Value"/>
+            </summary>
+        </member>
+        <member name="T:PhotoBlog.Service.XmlModels.Flickr.Moles.MImage">
+            <summary>Mole type of <see cref="T:PhotoBlog.Service.XmlModels.Flickr.Image"/>
+            .</summary>
+        </member>
+        <member name="M:PhotoBlog.Service.XmlModels.Flickr.Moles.MImage.#ctor">
+            <summary>Initializes a new mole</summary>
+        </member>
+        <member name="M:PhotoBlog.Service.XmlModels.Flickr.Moles.MImage.#ctor(PhotoBlog.Service.XmlModels.Flickr.Image)">
+            <summary>Initializes a new mole for the given instance</summary>
+        </member>
+        <member name="M:PhotoBlog.Service.XmlModels.Flickr.Moles.MImage.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:PhotoBlog.Service.XmlModels.Flickr.Moles.MImage.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:PhotoBlog.Service.XmlModels.Flickr.Moles.MImage.Behavior">
+            <summary>Assigns the behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:PhotoBlog.Service.XmlModels.Flickr.Moles.MImage.Constructor">
+            <summary>Sets the mole of <see cref="M:PhotoBlog.Service.XmlModels.Flickr.Image.#ctor"/>
+            </summary>
+        </member>
+        <member name="P:PhotoBlog.Service.XmlModels.Flickr.Moles.MImage.LinkGet">
+            <summary>Sets the mole of <see cref="P:PhotoBlog.Service.XmlModels.Flickr.Image.Link"/>
+            </summary>
+        </member>
+        <member name="P:PhotoBlog.Service.XmlModels.Flickr.Moles.MImage.LinkSetUri">
+            <summary>Sets the mole of <see cref="P:PhotoBlog.Service.XmlModels.Flickr.Image.Link"/>
+            </summary>
+        </member>
+        <member name="P:PhotoBlog.Service.XmlModels.Flickr.Moles.MImage.TitleGet">
+            <summary>Sets the mole of <see cref="P:PhotoBlog.Service.XmlModels.Flickr.Image.Title"/>
+            </summary>
+        </member>
+        <member name="P:PhotoBlog.Service.XmlModels.Flickr.Moles.MImage.TitleSetString">
+            <summary>Sets the mole of <see cref="P:PhotoBlog.Service.XmlModels.Flickr.Image.Title"/>
+            </summary>
+        </member>
+        <member name="P:PhotoBlog.Service.XmlModels.Flickr.Moles.MImage.UrlGet">
+            <summary>Sets the mole of <see cref="P:PhotoBlog.Service.XmlModels.Flickr.Image.Url"/>
+            </summary>
+        </member>
+        <member name="P:PhotoBlog.Service.XmlModels.Flickr.Moles.MImage.UrlSetUri">
+            <summary>Sets the mole of <see cref="P:PhotoBlog.Service.XmlModels.Flickr.Image.Url"/>
+            </summary>
+        </member>
+        <member name="T:PhotoBlog.Service.XmlModels.Flickr.Moles.MImage.AllInstances">
+            <summary>Define moles for all instances members</summary>
+        </member>
+        <member name="P:PhotoBlog.Service.XmlModels.Flickr.Moles.MImage.AllInstances.LinkGet">
+            <summary>Sets the mole of <see cref="P:PhotoBlog.Service.XmlModels.Flickr.Image.Link"/>
+            </summary>
+        </member>
+        <member name="P:PhotoBlog.Service.XmlModels.Flickr.Moles.MImage.AllInstances.LinkSetUri">
+            <summary>Sets the mole of <see cref="P:PhotoBlog.Service.XmlModels.Flickr.Image.Link"/>
+            </summary>
+        </member>
+        <member name="P:PhotoBlog.Service.XmlModels.Flickr.Moles.MImage.AllInstances.TitleGet">
+            <summary>Sets the mole of <see cref="P:PhotoBlog.Service.XmlModels.Flickr.Image.Title"/>
+            </summary>
+        </member>
+        <member name="P:PhotoBlog.Service.XmlModels.Flickr.Moles.MImage.AllInstances.TitleSetString">
+            <summary>Sets the mole of <see cref="P:PhotoBlog.Service.XmlModels.Flickr.Image.Title"/>
+            </summary>
+        </member>
+        <member name="P:PhotoBlog.Service.XmlModels.Flickr.Moles.MImage.AllInstances.UrlGet">
+            <summary>Sets the mole of <see cref="P:PhotoBlog.Service.XmlModels.Flickr.Image.Url"/>
+            </summary>
+        </member>
+        <member name="P:PhotoBlog.Service.XmlModels.Flickr.Moles.MImage.AllInstances.UrlSetUri">
+            <summary>Sets the mole of <see cref="P:PhotoBlog.Service.XmlModels.Flickr.Image.Url"/>
+            </summary>
+        </member>
+        <member name="T:PhotoBlog.Service.XmlModels.Flickr.Moles.MItem">
+            <summary>Mole type of <see cref="T:PhotoBlog.Service.XmlModels.Flickr.Item"/>
+            .</summary>
+        </member>
+        <member name="M:PhotoBlog.Service.XmlModels.Flickr.Moles.MItem.#ctor">
+            <summary>Initializes a new mole</summary>
+        </member>
+        <member name="M:PhotoBlog.Service.XmlModels.Flickr.Moles.MItem.#ctor(PhotoBlog.Service.XmlModels.Flickr.Item)">
+            <summary>Initializes a new mole for the given instance</summary>
+        </member>
+        <member name="M:PhotoBlog.Service.XmlModels.Flickr.Moles.MItem.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:PhotoBlog.Service.XmlModels.Flickr.Moles.MItem.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:PhotoBlog.Service.XmlModels.Flickr.Moles.MItem.AuthorGet">
+            <summary>Sets the mole of <see cref="P:PhotoBlog.Service.XmlModels.Flickr.Item.Author"/>
+            </summary>
+        </member>
+        <member name="P:PhotoBlog.Service.XmlModels.Flickr.Moles.MItem.AuthorSetAuthor">
+            <summary>Sets the mole of <see cref="P:PhotoBlog.Service.XmlModels.Flickr.Item.Author"/>
+            </summary>
+        </member>
+        <member name="P:PhotoBlog.Service.XmlModels.Flickr.Moles.MItem.Behavior">
+            <summary>Assigns the behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:PhotoBlog.Service.XmlModels.Flickr.Moles.MItem.Constructor">
+            <summary>Sets the mole of <see cref="M:PhotoBlog.Service.XmlModels.Flickr.Item.#ctor"/>
+            </summary>
+        </member>
+        <member name="P:PhotoBlog.Service.XmlModels.Flickr.Moles.MItem.DateTakenGet">
+            <summary>Sets the mole of <see cref="P:PhotoBlog.Service.XmlModels.Flickr.Item.DateTaken"/>
+            </summary>
+        </member>
+        <member name="P:PhotoBlog.Service.XmlModels.Flickr.Moles.MItem.DateTakenSetDateTime">
+            <summary>Sets the mole of <see cref="P:PhotoBlog.Service.XmlModels.Flickr.Item.DateTaken"/>
+            </summary>
+        </member>
+        <member name="P:PhotoBlog.Service.XmlModels.Flickr.Moles.MItem.DescriptionGet">
+            <summary>Sets the mole of <see cref="P:PhotoBlog.Service.XmlModels.Flickr.Item.Description"/>
+            </summary>
+        </member>
+        <member name="P:PhotoBlog.Service.XmlModels.Flickr.Moles.MItem.DescriptionSetString">
+            <summary>Sets the mole of <see cref="P:PhotoBlog.Service.XmlModels.Flickr.Item.Description"/>
+            </summary>
+        </member>
+        <member name="P:PhotoBlog.Service.XmlModels.Flickr.Moles.MItem.GuidGet">
+            <summary>Sets the mole of <see cref="P:PhotoBlog.Service.XmlModels.Flickr.Item.Guid"/>
+            </summary>
+        </member>
+        <member name="P:PhotoBlog.Service.XmlModels.Flickr.Moles.MItem.GuidSetGuid">
+            <summary>Sets the mole of <see cref="P:PhotoBlog.Service.XmlModels.Flickr.Item.Guid"/>
+            </summary>
+        </member>
+        <member name="P:PhotoBlog.Service.XmlModels.Flickr.Moles.MItem.LinkGet">
+            <summary>Sets the mole of <see cref="P:PhotoBlog.Service.XmlModels.Flickr.Item.Link"/>
+            </summary>
+        </member>
+        <member name="P:PhotoBlog.Service.XmlModels.Flickr.Moles.MItem.LinkSetUri">
+            <summary>Sets the mole of <see cref="P:PhotoBlog.Service.XmlModels.Flickr.Item.Link"/>
+            </summary>
+        </member>
+        <member name="P:PhotoBlog.Service.XmlModels.Flickr.Moles.MItem.MediaCategoryGet">
+            <summary>Sets the mole of <see cref="P:PhotoBlog.Service.XmlModels.Flickr.Item.MediaCategory"/>
+            </summary>
+        </member>
+        <member name="P:PhotoBlog.Service.XmlModels.Flickr.Moles.MItem.MediaCategorySetCategory">
+            <summary>Sets the mole of <see cref="P:PhotoBlog.Service.XmlModels.Flickr.Item.MediaCategory"/>
+            </summary>
+        </member>
+        <member name="P:PhotoBlog.Service.XmlModels.Flickr.Moles.MItem.MediaContentGet">
+            <summary>Sets the mole of <see cref="P:PhotoBlog.Service.XmlModels.Flickr.Item.MediaContent"/>
+            </summary>
+        </member>
+        <member name="P:PhotoBlog.Service.XmlModels.Flickr.Moles.MItem.MediaContentSetContent">
+            <summary>Sets the mole of <see cref="P:PhotoBlog.Service.XmlModels.Flickr.Item.MediaContent"/>
+            </summary>
+        </member>
+        <member name="P:PhotoBlog.Service.XmlModels.Flickr.Moles.MItem.MediaCreditGet">
+            <summary>Sets the mole of <see cref="P:PhotoBlog.Service.XmlModels.Flickr.Item.MediaCredit"/>
+            </summary>
+        </member>
+        <member name="P:PhotoBlog.Service.XmlModels.Flickr.Moles.MItem.MediaCreditSetCredit">
+            <summary>Sets the mole of <see cref="P:PhotoBlog.Service.XmlModels.Flickr.Item.MediaCredit"/>
+            </summary>
+        </member>
+        <member name="P:PhotoBlog.Service.XmlModels.Flickr.Moles.MItem.MediaDescriptionGet">
+            <summary>Sets the mole of <see cref="P:PhotoBlog.Service.XmlModels.Flickr.Item.MediaDescription"/>
+            </summary>
+        </member>
+        <member name="P:PhotoBlog.Service.XmlModels.Flickr.Moles.MItem.MediaDescriptionSetDescription">
+            <summary>Sets the mole of <see cref="P:PhotoBlog.Service.XmlModels.Flickr.Item.MediaDescription"/>
+            </summary>
+        </member>
+        <member name="P:PhotoBlog.Service.XmlModels.Flickr.Moles.MItem.MediaThumbnailGet">
+            <summary>Sets the mole of <see cref="P:PhotoBlog.Service.XmlModels.Flickr.Item.MediaThumbnail"/>
+            </summary>
+        </member>
+        <member name="P:PhotoBlog.Service.XmlModels.Flickr.Moles.MItem.MediaThumbnailSetThumbnail">
+            <summary>Sets the mole of <see cref="P:PhotoBlog.Service.XmlModels.Flickr.Item.MediaThumbnail"/>
+            </summary>
+        </member>
+        <member name="P:PhotoBlog.Service.XmlModels.Flickr.Moles.MItem.MediaTitleGet">
+            <summary>Sets the mole of <see cref="P:PhotoBlog.Service.XmlModels.Flickr.Item.MediaTitle"/>
+            </summary>
+        </member>
+        <member name="P:PhotoBlog.Service.XmlModels.Flickr.Moles.MItem.MediaTitleSetString">
+            <summary>Sets the mole of <see cref="P:PhotoBlog.Service.XmlModels.Flickr.Item.MediaTitle"/>
+            </summary>
+        </member>
+        <member name="P:PhotoBlog.Service.XmlModels.Flickr.Moles.MItem.PubDateGet">
+            <summary>Sets the mole of <see cref="P:PhotoBlog.Service.XmlModels.Flickr.Item.PubDate"/>
+            </summary>
+        </member>
+        <member name="P:PhotoBlog.Service.XmlModels.Flickr.Moles.MItem.PubDateSetDateTime">
+            <summary>Sets the mole of <see cref="P:PhotoBlog.Service.XmlModels.Flickr.Item.PubDate"/>
+            </summary>
+        </member>
+        <member name="P:PhotoBlog.Service.XmlModels.Flickr.Moles.MItem.TitleGet">
+            <summary>Sets the mole of <see cref="P:PhotoBlog.Service.XmlModels.Flickr.Item.Title"/>
+            </summary>
+        </member>
+        <member name="P:PhotoBlog.Service.XmlModels.Flickr.Moles.MItem.TitleSetString">
+            <summary>Sets the mole of <see cref="P:PhotoBlog.Service.XmlModels.Flickr.Item.Title"/>
+            </summary>
+        </member>
+        <member name="T:PhotoBlog.Service.XmlModels.Flickr.Moles.MItem.AllInstances">
+            <summary>Define moles for all instances members</summary>
+        </member>
+        <member name="P:PhotoBlog.Service.XmlModels.Flickr.Moles.MItem.AllInstances.AuthorGet">
+            <summary>Sets the mole of <see cref="P:PhotoBlog.Service.XmlModels.Flickr.Item.Author"/>
+            </summary>
+        </member>
+        <member name="P:PhotoBlog.Service.XmlModels.Flickr.Moles.MItem.AllInstances.AuthorSetAuthor">
+            <summary>Sets the mole of <see cref="P:PhotoBlog.Service.XmlModels.Flickr.Item.Author"/>
+            </summary>
+        </member>
+        <member name="P:PhotoBlog.Service.XmlModels.Flickr.Moles.MItem.AllInstances.DateTakenGet">
+            <summary>Sets the mole of <see cref="P:PhotoBlog.Service.XmlModels.Flickr.Item.DateTaken"/>
+            </summary>
+        </member>
+        <member name="P:PhotoBlog.Service.XmlModels.Flickr.Moles.MItem.AllInstances.DateTakenSetDateTime">
+            <summary>Sets the mole of <see cref="P:PhotoBlog.Service.XmlModels.Flickr.Item.DateTaken"/>
+            </summary>
+        </member>
+        <member name="P:PhotoBlog.Service.XmlModels.Flickr.Moles.MItem.AllInstances.DescriptionGet">
+            <summary>Sets the mole of <see cref="P:PhotoBlog.Service.XmlModels.Flickr.Item.Description"/>
+            </summary>
+        </member>
+        <member name="P:PhotoBlog.Service.XmlModels.Flickr.Moles.MItem.AllInstances.DescriptionSetString">
+            <summary>Sets the mole of <see cref="P:PhotoBlog.Service.XmlModels.Flickr.Item.Description"/>
+            </summary>
+        </member>
+        <member name="P:PhotoBlog.Service.XmlModels.Flickr.Moles.MItem.AllInstances.GuidGet">
+            <summary>Sets the mole of <see cref="P:PhotoBlog.Service.XmlModels.Flickr.Item.Guid"/>
+            </summary>
+        </member>
+        <member name="P:PhotoBlog.Service.XmlModels.Flickr.Moles.MItem.AllInstances.GuidSetGuid">
+            <summary>Sets the mole of <see cref="P:PhotoBlog.Service.XmlModels.Flickr.Item.Guid"/>
+            </summary>
+        </member>
+        <member name="P:PhotoBlog.Service.XmlModels.Flickr.Moles.MItem.AllInstances.LinkGet">
+            <summary>Sets the mole of <see cref="P:PhotoBlog.Service.XmlModels.Flickr.Item.Link"/>
+            </summary>
+        </member>
+        <member name="P:PhotoBlog.Service.XmlModels.Flickr.Moles.MItem.AllInstances.LinkSetUri">
+            <summary>Sets the mole of <see cref="P:PhotoBlog.Service.XmlModels.Flickr.Item.Link"/>
+            </summary>
+        </member>
+        <member name="P:PhotoBlog.Service.XmlModels.Flickr.Moles.MItem.AllInstances.MediaCategoryGet">
+            <summary>Sets the mole of <see cref="P:PhotoBlog.Service.XmlModels.Flickr.Item.MediaCategory"/>
+            </summary>
+        </member>
+        <member name="P:PhotoBlog.Service.XmlModels.Flickr.Moles.MItem.AllInstances.MediaCategorySetCategory">
+            <summary>Sets the mole of <see cref="P:PhotoBlog.Service.XmlModels.Flickr.Item.MediaCategory"/>
+            </summary>
+        </member>
+        <member name="P:PhotoBlog.Service.XmlModels.Flickr.Moles.MItem.AllInstances.MediaContentGet">
+            <summary>Sets the mole of <see cref="P:PhotoBlog.Service.XmlModels.Flickr.Item.MediaContent"/>
+            </summary>
+        </member>
+        <member name="P:PhotoBlog.Service.XmlModels.Flickr.Moles.MItem.AllInstances.MediaContentSetContent">
+            <summary>Sets the mole of <see cref="P:PhotoBlog.Service.XmlModels.Flickr.Item.MediaContent"/>
+            </summary>
+        </member>
+        <member name="P:PhotoBlog.Service.XmlModels.Flickr.Moles.MItem.AllInstances.MediaCreditGet">
+            <summary>Sets the mole of <see cref="P:PhotoBlog.Service.XmlModels.Flickr.Item.MediaCredit"/>
+            </summary>
+        </member>
+        <member name="P:PhotoBlog.Service.XmlModels.Flickr.Moles.MItem.AllInstances.MediaCreditSetCredit">
+            <summary>Sets the mole of <see cref="P:PhotoBlog.Service.XmlModels.Flickr.Item.MediaCredit"/>
+            </summary>
+        </member>
+        <member name="P:PhotoBlog.Service.XmlModels.Flickr.Moles.MItem.AllInstances.MediaDescriptionGet">
+            <summary>Sets the mole of <see cref="P:PhotoBlog.Service.XmlModels.Flickr.Item.MediaDescription"/>
+            </summary>
+        </member>
+        <member name="P:PhotoBlog.Service.XmlModels.Flickr.Moles.MItem.AllInstances.MediaDescriptionSetDescription">
+            <summary>Sets the mole of <see cref="P:PhotoBlog.Service.XmlModels.Flickr.Item.MediaDescription"/>
+            </summary>
+        </member>
+        <member name="P:PhotoBlog.Service.XmlModels.Flickr.Moles.MItem.AllInstances.MediaThumbnailGet">
+            <summary>Sets the mole of <see cref="P:PhotoBlog.Service.XmlModels.Flickr.Item.MediaThumbnail"/>
+            </summary>
+        </member>
+        <member name="P:PhotoBlog.Service.XmlModels.Flickr.Moles.MItem.AllInstances.MediaThumbnailSetThumbnail">
+            <summary>Sets the mole of <see cref="P:PhotoBlog.Service.XmlModels.Flickr.Item.MediaThumbnail"/>
+            </summary>
+        </member>
+        <member name="P:PhotoBlog.Service.XmlModels.Flickr.Moles.MItem.AllInstances.MediaTitleGet">
+            <summary>Sets the mole of <see cref="P:PhotoBlog.Service.XmlModels.Flickr.Item.MediaTitle"/>
+            </summary>
+        </member>
+        <member name="P:PhotoBlog.Service.XmlModels.Flickr.Moles.MItem.AllInstances.MediaTitleSetString">
+            <summary>Sets the mole of <see cref="P:PhotoBlog.Service.XmlModels.Flickr.Item.MediaTitle"/>
+            </summary>
+        </member>
+        <member name="P:PhotoBlog.Service.XmlModels.Flickr.Moles.MItem.AllInstances.PubDateGet">
+            <summary>Sets the mole of <see cref="P:PhotoBlog.Service.XmlModels.Flickr.Item.PubDate"/>
+            </summary>
+        </member>
+        <member name="P:PhotoBlog.Service.XmlModels.Flickr.Moles.MItem.AllInstances.PubDateSetDateTime">
+            <summary>Sets the mole of <see cref="P:PhotoBlog.Service.XmlModels.Flickr.Item.PubDate"/>
+            </summary>
+        </member>
+        <member name="P:PhotoBlog.Service.XmlModels.Flickr.Moles.MItem.AllInstances.TitleGet">
+            <summary>Sets the mole of <see cref="P:PhotoBlog.Service.XmlModels.Flickr.Item.Title"/>
+            </summary>
+        </member>
+        <member name="P:PhotoBlog.Service.XmlModels.Flickr.Moles.MItem.AllInstances.TitleSetString">
+            <summary>Sets the mole of <see cref="P:PhotoBlog.Service.XmlModels.Flickr.Item.Title"/>
+            </summary>
+        </member>
+        <member name="T:PhotoBlog.Service.XmlModels.Flickr.Moles.MRss">
+            <summary>Mole type of <see cref="T:PhotoBlog.Service.XmlModels.Flickr.Rss"/>
+            .</summary>
+        </member>
+        <member name="M:PhotoBlog.Service.XmlModels.Flickr.Moles.MRss.#ctor">
+            <summary>Initializes a new mole</summary>
+        </member>
+        <member name="M:PhotoBlog.Service.XmlModels.Flickr.Moles.MRss.#ctor(PhotoBlog.Service.XmlModels.Flickr.Rss)">
+            <summary>Initializes a new mole for the given instance</summary>
+        </member>
+        <member name="M:PhotoBlog.Service.XmlModels.Flickr.Moles.MRss.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:PhotoBlog.Service.XmlModels.Flickr.Moles.MRss.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:PhotoBlog.Service.XmlModels.Flickr.Moles.MRss.Behavior">
+            <summary>Assigns the behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:PhotoBlog.Service.XmlModels.Flickr.Moles.MRss.ChannelGet">
+            <summary>Sets the mole of <see cref="P:PhotoBlog.Service.XmlModels.Flickr.Rss.Channel"/>
+            </summary>
+        </member>
+        <member name="P:PhotoBlog.Service.XmlModels.Flickr.Moles.MRss.ChannelSetChannel">
+            <summary>Sets the mole of <see cref="P:PhotoBlog.Service.XmlModels.Flickr.Rss.Channel"/>
+            </summary>
+        </member>
+        <member name="P:PhotoBlog.Service.XmlModels.Flickr.Moles.MRss.Constructor">
+            <summary>Sets the mole of <see cref="M:PhotoBlog.Service.XmlModels.Flickr.Rss.#ctor"/>
+            </summary>
+        </member>
+        <member name="P:PhotoBlog.Service.XmlModels.Flickr.Moles.MRss.VersionGet">
+            <summary>Sets the mole of <see cref="P:PhotoBlog.Service.XmlModels.Flickr.Rss.Version"/>
+            </summary>
+        </member>
+        <member name="P:PhotoBlog.Service.XmlModels.Flickr.Moles.MRss.VersionSetDecimal">
+            <summary>Sets the mole of <see cref="P:PhotoBlog.Service.XmlModels.Flickr.Rss.Version"/>
+            </summary>
+        </member>
+        <member name="T:PhotoBlog.Service.XmlModels.Flickr.Moles.MRss.AllInstances">
+            <summary>Define moles for all instances members</summary>
+        </member>
+        <member name="P:PhotoBlog.Service.XmlModels.Flickr.Moles.MRss.AllInstances.ChannelGet">
+            <summary>Sets the mole of <see cref="P:PhotoBlog.Service.XmlModels.Flickr.Rss.Channel"/>
+            </summary>
+        </member>
+        <member name="P:PhotoBlog.Service.XmlModels.Flickr.Moles.MRss.AllInstances.ChannelSetChannel">
+            <summary>Sets the mole of <see cref="P:PhotoBlog.Service.XmlModels.Flickr.Rss.Channel"/>
+            </summary>
+        </member>
+        <member name="P:PhotoBlog.Service.XmlModels.Flickr.Moles.MRss.AllInstances.VersionGet">
+            <summary>Sets the mole of <see cref="P:PhotoBlog.Service.XmlModels.Flickr.Rss.Version"/>
+            </summary>
+        </member>
+        <member name="P:PhotoBlog.Service.XmlModels.Flickr.Moles.MRss.AllInstances.VersionSetDecimal">
+            <summary>Sets the mole of <see cref="P:PhotoBlog.Service.XmlModels.Flickr.Rss.Version"/>
+            </summary>
+        </member>
+        <member name="T:PhotoBlog.Service.XmlModels.Flickr.Moles.MThumbnail">
+            <summary>Mole type of <see cref="T:PhotoBlog.Service.XmlModels.Flickr.Thumbnail"/>
+            .</summary>
+        </member>
+        <member name="M:PhotoBlog.Service.XmlModels.Flickr.Moles.MThumbnail.#ctor">
+            <summary>Initializes a new mole</summary>
+        </member>
+        <member name="M:PhotoBlog.Service.XmlModels.Flickr.Moles.MThumbnail.#ctor(PhotoBlog.Service.XmlModels.Flickr.Thumbnail)">
+            <summary>Initializes a new mole for the given instance</summary>
+        </member>
+        <member name="M:PhotoBlog.Service.XmlModels.Flickr.Moles.MThumbnail.BehaveAsCurrent">
+            <summary>Assigns the &apos;Current&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="M:PhotoBlog.Service.XmlModels.Flickr.Moles.MThumbnail.BehaveAsNotImplemented">
+            <summary>Assigns the &apos;NotImplemented&apos; behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:PhotoBlog.Service.XmlModels.Flickr.Moles.MThumbnail.Behavior">
+            <summary>Assigns the behavior for all methods of the moled type</summary>
+        </member>
+        <member name="P:PhotoBlog.Service.XmlModels.Flickr.Moles.MThumbnail.Constructor">
+            <summary>Sets the mole of <see cref="M:PhotoBlog.Service.XmlModels.Flickr.Thumbnail.#ctor"/>
+            </summary>
+        </member>
+        <member name="P:PhotoBlog.Service.XmlModels.Flickr.Moles.MThumbnail.HeightGet">
+            <summary>Sets the mole of <see cref="P:PhotoBlog.Service.XmlModels.Flickr.Thumbnail.Height"/>
+            </summary>
+        </member>
+        <member name="P:PhotoBlog.Service.XmlModels.Flickr.Moles.MThumbnail.HeightSetInt32">
+            <summary>Sets the mole of <see cref="P:PhotoBlog.Service.XmlModels.Flickr.Thumbnail.Height"/>
+            </summary>
+        </member>
+        <member name="P:PhotoBlog.Service.XmlModels.Flickr.Moles.MThumbnail.UrlGet">
+            <summary>Sets the mole of <see cref="P:PhotoBlog.Service.XmlModels.Flickr.Thumbnail.Url"/>
+            </summary>
+        </member>
+        <member name="P:PhotoBlog.Service.XmlModels.Flickr.Moles.MThumbnail.UrlSetString">
+            <summary>Sets the mole of <see cref="P:PhotoBlog.Service.XmlModels.Flickr.Thumbnail.Url"/>
+            </summary>
+        </member>
+        <member name="P:PhotoBlog.Service.XmlModels.Flickr.Moles.MThumbnail.WidthGet">
+            <summary>Sets the mole of <see cref="P:PhotoBlog.Service.XmlModels.Flickr.Thumbnail.Width"/>
+            </summary>
+        </member>
+        <member name="P:PhotoBlog.Service.XmlModels.Flickr.Moles.MThumbnail.WidthSetInt32">
+            <summary>Sets the mole of <see cref="P:PhotoBlog.Service.XmlModels.Flickr.Thumbnail.Width"/>
+            </summary>
+        </member>
+        <member name="T:PhotoBlog.Service.XmlModels.Flickr.Moles.MThumbnail.AllInstances">
+            <summary>Define moles for all instances members</summary>
+        </member>
+        <member name="P:PhotoBlog.Service.XmlModels.Flickr.Moles.MThumbnail.AllInstances.HeightGet">
+            <summary>Sets the mole of <see cref="P:PhotoBlog.Service.XmlModels.Flickr.Thumbnail.Height"/>
+            </summary>
+        </member>
+        <member name="P:PhotoBlog.Service.XmlModels.Flickr.Moles.MThumbnail.AllInstances.HeightSetInt32">
+            <summary>Sets the mole of <see cref="P:PhotoBlog.Service.XmlModels.Flickr.Thumbnail.Height"/>
+            </summary>
+        </member>
+        <member name="P:PhotoBlog.Service.XmlModels.Flickr.Moles.MThumbnail.AllInstances.UrlGet">
+            <summary>Sets the mole of <see cref="P:PhotoBlog.Service.XmlModels.Flickr.Thumbnail.Url"/>
+            </summary>
+        </member>
+        <member name="P:PhotoBlog.Service.XmlModels.Flickr.Moles.MThumbnail.AllInstances.UrlSetString">
+            <summary>Sets the mole of <see cref="P:PhotoBlog.Service.XmlModels.Flickr.Thumbnail.Url"/>
+            </summary>
+        </member>
+        <member name="P:PhotoBlog.Service.XmlModels.Flickr.Moles.MThumbnail.AllInstances.WidthGet">
+            <summary>Sets the mole of <see cref="P:PhotoBlog.Service.XmlModels.Flickr.Thumbnail.Width"/>
+            </summary>
+        </member>
+        <member name="P:PhotoBlog.Service.XmlModels.Flickr.Moles.MThumbnail.AllInstances.WidthSetInt32">
+            <summary>Sets the mole of <see cref="P:PhotoBlog.Service.XmlModels.Flickr.Thumbnail.Width"/>
+            </summary>
+        </member>
+        <member name="T:PhotoBlog.Service.XmlModels.Flickr.Moles.SAuthor">
+            <summary>Stub type of <see cref="T:PhotoBlog.Service.XmlModels.Flickr.Author"/>
+            .</summary>
+        </member>
+        <member name="M:PhotoBlog.Service.XmlModels.Flickr.Moles.SAuthor.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:PhotoBlog.Service.XmlModels.Flickr.Moles.SAuthor.InitializeStub">
+            <summary>Initializes a new instance of type SAuthor</summary>
+        </member>
+        <member name="P:PhotoBlog.Service.XmlModels.Flickr.Moles.SAuthor.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:PhotoBlog.Service.XmlModels.Flickr.Moles.SAuthor.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="T:PhotoBlog.Service.XmlModels.Flickr.Moles.SCategory">
+            <summary>Stub type of <see cref="T:PhotoBlog.Service.XmlModels.Flickr.Category"/>
+            .</summary>
+        </member>
+        <member name="M:PhotoBlog.Service.XmlModels.Flickr.Moles.SCategory.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:PhotoBlog.Service.XmlModels.Flickr.Moles.SCategory.InitializeStub">
+            <summary>Initializes a new instance of type SCategory</summary>
+        </member>
+        <member name="P:PhotoBlog.Service.XmlModels.Flickr.Moles.SCategory.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:PhotoBlog.Service.XmlModels.Flickr.Moles.SCategory.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="T:PhotoBlog.Service.XmlModels.Flickr.Moles.SChannel">
+            <summary>Stub type of <see cref="T:PhotoBlog.Service.XmlModels.Flickr.Channel"/>
+            .</summary>
+        </member>
+        <member name="M:PhotoBlog.Service.XmlModels.Flickr.Moles.SChannel.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:PhotoBlog.Service.XmlModels.Flickr.Moles.SChannel.InitializeStub">
+            <summary>Initializes a new instance of type SChannel</summary>
+        </member>
+        <member name="P:PhotoBlog.Service.XmlModels.Flickr.Moles.SChannel.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:PhotoBlog.Service.XmlModels.Flickr.Moles.SChannel.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="T:PhotoBlog.Service.XmlModels.Flickr.Moles.SContent">
+            <summary>Stub type of <see cref="T:PhotoBlog.Service.XmlModels.Flickr.Content"/>
+            .</summary>
+        </member>
+        <member name="M:PhotoBlog.Service.XmlModels.Flickr.Moles.SContent.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:PhotoBlog.Service.XmlModels.Flickr.Moles.SContent.InitializeStub">
+            <summary>Initializes a new instance of type SContent</summary>
+        </member>
+        <member name="P:PhotoBlog.Service.XmlModels.Flickr.Moles.SContent.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:PhotoBlog.Service.XmlModels.Flickr.Moles.SContent.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="T:PhotoBlog.Service.XmlModels.Flickr.Moles.SCredit">
+            <summary>Stub type of <see cref="T:PhotoBlog.Service.XmlModels.Flickr.Credit"/>
+            .</summary>
+        </member>
+        <member name="M:PhotoBlog.Service.XmlModels.Flickr.Moles.SCredit.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:PhotoBlog.Service.XmlModels.Flickr.Moles.SCredit.InitializeStub">
+            <summary>Initializes a new instance of type SCredit</summary>
+        </member>
+        <member name="P:PhotoBlog.Service.XmlModels.Flickr.Moles.SCredit.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:PhotoBlog.Service.XmlModels.Flickr.Moles.SCredit.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="T:PhotoBlog.Service.XmlModels.Flickr.Moles.SDescription">
+            <summary>Stub type of <see cref="T:PhotoBlog.Service.XmlModels.Flickr.Description"/>
+            .</summary>
+        </member>
+        <member name="M:PhotoBlog.Service.XmlModels.Flickr.Moles.SDescription.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:PhotoBlog.Service.XmlModels.Flickr.Moles.SDescription.InitializeStub">
+            <summary>Initializes a new instance of type SDescription</summary>
+        </member>
+        <member name="P:PhotoBlog.Service.XmlModels.Flickr.Moles.SDescription.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:PhotoBlog.Service.XmlModels.Flickr.Moles.SDescription.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="T:PhotoBlog.Service.DomainModels.Moles.SEntry">
+            <summary>Stub type of <see cref="T:PhotoBlog.Service.DomainModels.Entry"/>
+            .</summary>
+        </member>
+        <member name="M:PhotoBlog.Service.DomainModels.Moles.SEntry.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:PhotoBlog.Service.DomainModels.Moles.SEntry.InitializeStub">
+            <summary>Initializes a new instance of type SEntry</summary>
+        </member>
+        <member name="P:PhotoBlog.Service.DomainModels.Moles.SEntry.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:PhotoBlog.Service.DomainModels.Moles.SEntry.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="T:PhotoBlog.Service.Repositories.Moles.SFlickrRepository">
+            <summary>Stub type of <see cref="T:PhotoBlog.Service.Repositories.FlickrRepository"/>
+            .</summary>
+        </member>
+        <member name="M:PhotoBlog.Service.Repositories.Moles.SFlickrRepository.#ctor(System.Uri)">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:PhotoBlog.Service.Repositories.Moles.SFlickrRepository.InitializeStub">
+            <summary>Initializes a new instance of type SFlickrRepository</summary>
+        </member>
+        <member name="P:PhotoBlog.Service.Repositories.Moles.SFlickrRepository.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:PhotoBlog.Service.Repositories.Moles.SFlickrRepository.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="T:PhotoBlog.Service.XmlModels.Flickr.Moles.SGuid">
+            <summary>Stub type of <see cref="T:PhotoBlog.Service.XmlModels.Flickr.Guid"/>
+            .</summary>
+        </member>
+        <member name="M:PhotoBlog.Service.XmlModels.Flickr.Moles.SGuid.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:PhotoBlog.Service.XmlModels.Flickr.Moles.SGuid.InitializeStub">
+            <summary>Initializes a new instance of type SGuid</summary>
+        </member>
+        <member name="P:PhotoBlog.Service.XmlModels.Flickr.Moles.SGuid.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:PhotoBlog.Service.XmlModels.Flickr.Moles.SGuid.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="T:PhotoBlog.Service.Repositories.Moles.SIRepository">
+            <summary>Stub type of <see cref="T:PhotoBlog.Service.Repositories.IRepository"/>
+            .</summary>
+        </member>
+        <member name="M:PhotoBlog.Service.Repositories.Moles.SIRepository.#ctor">
+            <summary>Initializes a new instance of type SIRepository</summary>
+        </member>
+        <member name="F:PhotoBlog.Service.Repositories.Moles.SIRepository.GetEntries">
+            <summary>Sets the stub of <see cref="M:PhotoBlog.Service.Repositories.IRepository.GetEntries"/>
+            </summary>
+        </member>
+        <member name="M:PhotoBlog.Service.Repositories.Moles.SIRepository.pbs::PhotoBlog#Service#Repositories#IRepository#GetEntries">
+            <summary>Sets the stub of <see cref="M:PhotoBlog.Service.Repositories.IRepository.GetEntries"/>
+            </summary>
+        </member>
+        <member name="T:PhotoBlog.Service.XmlModels.Flickr.Moles.SImage">
+            <summary>Stub type of <see cref="T:PhotoBlog.Service.XmlModels.Flickr.Image"/>
+            .</summary>
+        </member>
+        <member name="M:PhotoBlog.Service.XmlModels.Flickr.Moles.SImage.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:PhotoBlog.Service.XmlModels.Flickr.Moles.SImage.InitializeStub">
+            <summary>Initializes a new instance of type SImage</summary>
+        </member>
+        <member name="P:PhotoBlog.Service.XmlModels.Flickr.Moles.SImage.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:PhotoBlog.Service.XmlModels.Flickr.Moles.SImage.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="T:PhotoBlog.Service.XmlModels.Flickr.Moles.SItem">
+            <summary>Stub type of <see cref="T:PhotoBlog.Service.XmlModels.Flickr.Item"/>
+            .</summary>
+        </member>
+        <member name="M:PhotoBlog.Service.XmlModels.Flickr.Moles.SItem.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:PhotoBlog.Service.XmlModels.Flickr.Moles.SItem.InitializeStub">
+            <summary>Initializes a new instance of type SItem</summary>
+        </member>
+        <member name="P:PhotoBlog.Service.XmlModels.Flickr.Moles.SItem.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:PhotoBlog.Service.XmlModels.Flickr.Moles.SItem.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="T:PhotoBlog.Service.XmlModels.Flickr.Moles.SRss">
+            <summary>Stub type of <see cref="T:PhotoBlog.Service.XmlModels.Flickr.Rss"/>
+            .</summary>
+        </member>
+        <member name="M:PhotoBlog.Service.XmlModels.Flickr.Moles.SRss.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:PhotoBlog.Service.XmlModels.Flickr.Moles.SRss.InitializeStub">
+            <summary>Initializes a new instance of type SRss</summary>
+        </member>
+        <member name="P:PhotoBlog.Service.XmlModels.Flickr.Moles.SRss.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:PhotoBlog.Service.XmlModels.Flickr.Moles.SRss.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+        <member name="T:PhotoBlog.Service.XmlModels.Flickr.Moles.SThumbnail">
+            <summary>Stub type of <see cref="T:PhotoBlog.Service.XmlModels.Flickr.Thumbnail"/>
+            .</summary>
+        </member>
+        <member name="M:PhotoBlog.Service.XmlModels.Flickr.Moles.SThumbnail.#ctor">
+            <summary>Initializes a new instance</summary>
+        </member>
+        <member name="M:PhotoBlog.Service.XmlModels.Flickr.Moles.SThumbnail.InitializeStub">
+            <summary>Initializes a new instance of type SThumbnail</summary>
+        </member>
+        <member name="P:PhotoBlog.Service.XmlModels.Flickr.Moles.SThumbnail.CallBase">
+            <summary>Gets or sets a value that indicates if the base method should be called instead of the fallback behavior</summary>
+        </member>
+        <member name="P:PhotoBlog.Service.XmlModels.Flickr.Moles.SThumbnail.InstanceBehavior">
+            <summary>Gets or sets the instance behavior.</summary>
+        </member>
+    </members>
+</doc>

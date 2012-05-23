@@ -1,15 +1,18 @@
-﻿<div id="timeline-embed"></div>
+﻿@{
+	ViewBag.Title = "Timeline Photoblog";
+}
+
+<div id="timeline-embed"></div>
 <script type="text/javascript">
 	var timeline_config = {
-	    width: "100%",
-	    height: "100%",
-	    source: '/Home/Json',
-	    start_at_end: true, 						//OPTIONAL
-	    hash_bookmark: true, 						//OPTIONAL
-	    font: 'Bevan-PotanoSans', 			//OPTIONAL
-	    maptype: 'watercolor', 				//OPTIONAL
-	    css: '/Styles/timeline.css', 	//OPTIONAL
-	    js: '/Scripts/timeline.js'	//OPTIONAL
+		width: "100%",
+		height: "100%",
+		source: '/Api/GetEntries',
+		start_at_end: true, 						//OPTIONAL
+		hash_bookmark: true, 						//OPTIONAL
+		font: 'Bevan-PotanoSans', 			        //OPTIONAL
+		css: '/Styles/timeline.css', 	            //OPTIONAL
+		js: '/Scripts/timeline.js'	                //OPTIONAL
 	}
 </script>
-<script type="text/javascript" src="/Scripts/timeline-embed.js"></script>
+<script type="text/javascript" src="@Url.Content("/Scripts/timeline-embed.js")"></script>

@@ -3,23 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhotoBlog", "PhotoBlog\PhotoBlog.csproj", "{00036E50-9D4C-43AF-8180-ADD31940BB69}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhotoBlog.Tests", "PhotoBlog.Tests\PhotoBlog.Tests.csproj", "{DD5000DB-C181-4167-95DF-1EAA07E38C3C}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhotoBlog.Service", "PhotoBlog.Service\PhotoBlog.Service.csproj", "{51A59CE9-ED14-4D3A-A90C-4812950AE12C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhotoBlog.Service.Tests", "PhotoBlog.Service.Tests\PhotoBlog.Service.Tests.csproj", "{C1B129CC-23E2-4D49-BB2F-B806A4F8A379}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{56F5CC51-F182-4EBA-8E95-227C2769BCE1}"
-	ProjectSection(SolutionItems) = preProject
-		Local.testsettings = Local.testsettings
-		PhotoBlog.vsmdi = PhotoBlog.vsmdi
-		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
-	EndProjectSection
-EndProject
 Global
-	GlobalSection(TestCaseManagementSettings) = postSolution
-		CategoryFile = PhotoBlog.vsmdi
-	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
@@ -29,18 +15,10 @@ Global
 		{00036E50-9D4C-43AF-8180-ADD31940BB69}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{00036E50-9D4C-43AF-8180-ADD31940BB69}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{00036E50-9D4C-43AF-8180-ADD31940BB69}.Release|Any CPU.Build.0 = Release|Any CPU
-		{DD5000DB-C181-4167-95DF-1EAA07E38C3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{DD5000DB-C181-4167-95DF-1EAA07E38C3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{DD5000DB-C181-4167-95DF-1EAA07E38C3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{DD5000DB-C181-4167-95DF-1EAA07E38C3C}.Release|Any CPU.Build.0 = Release|Any CPU
 		{51A59CE9-ED14-4D3A-A90C-4812950AE12C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{51A59CE9-ED14-4D3A-A90C-4812950AE12C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{51A59CE9-ED14-4D3A-A90C-4812950AE12C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{51A59CE9-ED14-4D3A-A90C-4812950AE12C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{C1B129CC-23E2-4D49-BB2F-B806A4F8A379}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C1B129CC-23E2-4D49-BB2F-B806A4F8A379}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C1B129CC-23E2-4D49-BB2F-B806A4F8A379}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C1B129CC-23E2-4D49-BB2F-B806A4F8A379}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -21,17 +21,5 @@ namespace PhotoBlog.Controllers
         {
             return View();
         }
-
-        public JsonResult Json()
-        {
-            var timeline = new Timeline();
-            timeline.type = "default";
-
-            var dates = new List<Date>();
-            _repository.GetEntries().ToList()
-                                    .ForEach(entry => dates.Add(new Date(entry: entry)));
-            timeline.date = dates;
-            return Json(new { timeline }, JsonRequestBehavior.AllowGet);
-        }
     }
 }

@@ -5,7 +5,19 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhotoBlog", "PhotoBlog\Phot
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhotoBlog.Service", "PhotoBlog.Service\PhotoBlog.Service.csproj", "{51A59CE9-ED14-4D3A-A90C-4812950AE12C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhotoBlog.Test", "PhotoBlog.Test\PhotoBlog.Test.csproj", "{DBBBF4FE-33AE-4E50-8251-BD3E0ED344AB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{9900F664-24C5-44E9-AF29-4F197965428C}"
+	ProjectSection(SolutionItems) = preProject
+		Local.testsettings = Local.testsettings
+		PhotoBlog.vsmdi = PhotoBlog.vsmdi
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
 Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = PhotoBlog.vsmdi
+	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
@@ -19,6 +31,10 @@ Global
 		{51A59CE9-ED14-4D3A-A90C-4812950AE12C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{51A59CE9-ED14-4D3A-A90C-4812950AE12C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{51A59CE9-ED14-4D3A-A90C-4812950AE12C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBBBF4FE-33AE-4E50-8251-BD3E0ED344AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBBBF4FE-33AE-4E50-8251-BD3E0ED344AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBBBF4FE-33AE-4E50-8251-BD3E0ED344AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBBBF4FE-33AE-4E50-8251-BD3E0ED344AB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -163,9 +163,6 @@
     <Content Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="data.json" />
-  </ItemGroup>
-  <ItemGroup>
     <ProjectReference Include="..\PhotoBlog.Service\PhotoBlog.Service.csproj">
       <Project>{51A59CE9-ED14-4D3A-A90C-4812950AE12C}</Project>
       <Name>PhotoBlog.Service</Name>

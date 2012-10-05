@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Xml.Serialization;
 
-namespace PhotoBlog.Service.XmlModels.Flickr
+namespace TimelinePhoto.Service.XmlModels.Flickr
 {
     [SerializableAttribute()]
     [XmlTypeAttribute(AnonymousType = true)]

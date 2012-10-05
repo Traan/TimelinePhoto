@@ -1,6 +1,6 @@
 ﻿using System.Xml.Serialization;
 
-namespace PhotoBlog.Service.XmlModels.Flickr
+namespace TimelinePhoto.Service.XmlModels.Flickr
 {
     [System.SerializableAttribute()]
     [XmlType(AnonymousType = true, Namespace = "http://search.yahoo.com/mrss/")]

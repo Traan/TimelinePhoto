@@ -1,11 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhotoBlog", "PhotoBlog\PhotoBlog.csproj", "{00036E50-9D4C-43AF-8180-ADD31940BB69}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimelinePhoto", "PhotoBlog\TimelinePhoto.csproj", "{00036E50-9D4C-43AF-8180-ADD31940BB69}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhotoBlog.Service", "PhotoBlog.Service\PhotoBlog.Service.csproj", "{51A59CE9-ED14-4D3A-A90C-4812950AE12C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimelinePhoto.Service", "PhotoBlog.Service\TimelinePhoto.Service.csproj", "{51A59CE9-ED14-4D3A-A90C-4812950AE12C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhotoBlog.Test", "PhotoBlog.Test\PhotoBlog.Test.csproj", "{DBBBF4FE-33AE-4E50-8251-BD3E0ED344AB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimelinePhoto.Test", "PhotoBlog.Test\TimelinePhoto.Test.csproj", "{DBBBF4FE-33AE-4E50-8251-BD3E0ED344AB}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{9900F664-24C5-44E9-AF29-4F197965428C}"
 	ProjectSection(SolutionItems) = preProject

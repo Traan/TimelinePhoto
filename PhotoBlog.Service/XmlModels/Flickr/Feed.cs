@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.ServiceModel.Syndication;
 
-namespace PhotoBlog.Service.XmlModels.Flickr
+namespace TimelinePhoto.Service.XmlModels.Flickr
 {
     public class Feed : SyndicationFeed
     {

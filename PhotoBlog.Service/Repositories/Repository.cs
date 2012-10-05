@@ -2,7 +2,7 @@
 using System.Web;
 using System.Web.Caching;
 
-namespace PhotoBlog.Service.Repositories
+namespace TimelinePhoto.Service.Repositories
 {
     public abstract class Repository
     {

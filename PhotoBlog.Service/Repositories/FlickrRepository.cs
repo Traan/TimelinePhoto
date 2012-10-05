@@ -3,12 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.ServiceModel.Syndication;
 using System.Xml;
-using PhotoBlog.Service.DomainModels;
-using PhotoBlog.Service.XmlModels.Flickr;
+using TimelinePhoto.Service.DomainModels;
+using TimelinePhoto.Service.XmlModels.Flickr;
 
-namespace PhotoBlog.Service.Repositories
+namespace TimelinePhoto.Service.Repositories
 {
-    public class FlickrRepository : Repository, IPhotoBlogRepository
+    public class FlickrRepository : Repository, ITimelinePhotoRepository
     {
         private readonly string _cacheKey = "flickr_{0}";
         private readonly Feed _feed;

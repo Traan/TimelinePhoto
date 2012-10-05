@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace PhotoBlog.Service.DomainModels
+namespace TimelinePhoto.Service.DomainModels
 {
     public class Asset
     {

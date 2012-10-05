@@ -10,8 +10,8 @@
     <ProjectTypeGuids>{E53F8FEA-EAE0-44A6-8774-FFD645390401};{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>PhotoBlog</RootNamespace>
-    <AssemblyName>PhotoBlog</AssemblyName>
+    <RootNamespace>TimelinePhoto</RootNamespace>
+    <AssemblyName>TimelinePhoto</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <MvcBuildViews>false</MvcBuildViews>
     <UseIISExpress>true</UseIISExpress>
@@ -163,9 +163,9 @@
     <Content Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\PhotoBlog.Service\PhotoBlog.Service.csproj">
+    <ProjectReference Include="..\PhotoBlog.Service\TimelinePhoto.Service.csproj">
       <Project>{51A59CE9-ED14-4D3A-A90C-4812950AE12C}</Project>
-      <Name>PhotoBlog.Service</Name>
+      <Name>TimelinePhoto.Service</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />

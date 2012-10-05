@@ -2,11 +2,11 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using PhotoBlog.Service.DomainModels;
+using TimelinePhoto.Service.DomainModels;
 
-namespace PhotoBlog.Service.Repositories
+namespace TimelinePhoto.Service.Repositories
 {
-    public interface IPhotoBlogRepository
+    public interface ITimelinePhotoRepository
     {
         IEnumerable<Entry> GetEntries();
     }

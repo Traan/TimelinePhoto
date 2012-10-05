@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace PhotoBlog.Models.Timeline
+namespace TimelinePhoto.Models.Timeline
 {
     public class Asset
     {

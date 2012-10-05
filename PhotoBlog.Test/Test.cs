@@ -3,9 +3,9 @@ using System.Text;
 using System.Collections.Generic;
 using System.Linq;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using PhotoBlog.Service.DomainModels;
+using TimelinePhoto.Service.DomainModels;
 
-namespace PhotoBlog.Test
+namespace TimelinePhoto.Test
 {
     [TestClass]
     public class Test
@@ -78,7 +78,7 @@ namespace PhotoBlog.Test
         }
     }
 
-    public class DummyRepository : Service.Repositories.IPhotoBlogRepository
+    public class DummyRepository : Service.Repositories.ITimelinePhotoRepository
     {
         private List<Entry> _entries = new List<Entry>();
 

@@ -1,6 +1,6 @@
-﻿using PhotoBlog.Service.DomainModels;
+﻿using TimelinePhoto.Service.DomainModels;
 
-namespace PhotoBlog.Models.Timeline
+namespace TimelinePhoto.Models.Timeline
 {
     public class Date
     {

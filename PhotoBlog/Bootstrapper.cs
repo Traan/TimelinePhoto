@@ -3,7 +3,7 @@ using Microsoft.Practices.Unity;
 using Microsoft.Practices.Unity.Configuration;
 using Unity.Mvc3;
 
-namespace PhotoBlog
+namespace TimelinePhoto
 {
     public static class Bootstrapper
     {

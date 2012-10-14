@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>TimelineJS</id>
+    <version>1.0.5</version>
+    <title>TimelineJS</title>
+    <authors>VéritéCo (a project of the Knight News Innovation Lab)</authors>
+    <owners>VéritéCo (a project of the Knight News Innovation Lab)</owners>
+    <licenseUrl>http://www.gnu.org/licenses/gpl.html</licenseUrl>
+    <projectUrl>http://timeline.verite.co/</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Beautifully crafted timelines that are easy, and intuitive to use.</description>
+    <summary>TimelineJS can pull in media from different sources. It has built in support for: Twitter, Flickr, Google Maps, YouTube, Vimeo, Dailymotion, Wikipedia, SoundCloud and more media types in the future.</summary>
+    <releaseNotes>New version pushed in github.com September 07, 2012)
+
+* Changed web thumb service to pagepeeker, tweaked flickr api size logic
+
+* Pagepeeker seems to provide better thumbnails
+  http://pagepeeker.com
+
+* Flickr size logic was assuming the medium 800 size exists. 
+  It doesn't anymore. This was causing enormous image sizes to load instead.
+
+DISCLAIMER: I am by no means the author of this amazing piece of software, I was just granted permission to create and upload the nuget package. For all questions/bug reports relating to this plugin, please visit the project url.
+
+TimelineJS was created and built by VéritéCo, as a project of the Knight News Innovation Lab.
+
+The project is hosted on GitHub, the largest code host in the world. We encourage you to contribute to the project and we value your feedback. You can report bugs and discuss features on the issues page, or ask a question on our Google Group.</releaseNotes>
+    <copyright />
+    <language>en-US</language>
+    <tags>jquery, plugin, timeline</tags>
+  </metadata>
+</package>

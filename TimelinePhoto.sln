@@ -2,39 +2,31 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{9900F664-24C5-44E9-AF29-4F197965428C}"
-	ProjectSection(SolutionItems) = preProject
-		Local.testsettings = Local.testsettings
-		TimelinePhoto.vsmdi = TimelinePhoto.vsmdi
-		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
-	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimelinePhoto", "PhotoBlog\TimelinePhoto.csproj", "{00036E50-9D4C-43AF-8180-ADD31940BB69}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimelinePhoto", "TimelinePhoto\TimelinePhoto.csproj", "{2FAF84FD-9609-4039-BE01-DA6B680279CE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimelinePhoto.Service", "PhotoBlog.Service\TimelinePhoto.Service.csproj", "{51A59CE9-ED14-4D3A-A90C-4812950AE12C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimelinePhoto.Service", "TimelinePhoto.Service\TimelinePhoto.Service.csproj", "{492B7238-D536-4F96-ACD3-BA062B2B2557}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimelinePhoto.Test", "PhotoBlog.Test\TimelinePhoto.Test.csproj", "{DBBBF4FE-33AE-4E50-8251-BD3E0ED344AB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimelinePhoto.Test", "TimelinePhoto.Test\TimelinePhoto.Test.csproj", "{CC69649B-1BFD-4321-B5BF-76F521206575}"
 EndProject
 Global
-	GlobalSection(TestCaseManagementSettings) = postSolution
-		CategoryFile = TimelinePhoto.vsmdi
-	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{00036E50-9D4C-43AF-8180-ADD31940BB69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{00036E50-9D4C-43AF-8180-ADD31940BB69}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{00036E50-9D4C-43AF-8180-ADD31940BB69}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{00036E50-9D4C-43AF-8180-ADD31940BB69}.Release|Any CPU.Build.0 = Release|Any CPU
-		{51A59CE9-ED14-4D3A-A90C-4812950AE12C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{51A59CE9-ED14-4D3A-A90C-4812950AE12C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{51A59CE9-ED14-4D3A-A90C-4812950AE12C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{51A59CE9-ED14-4D3A-A90C-4812950AE12C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{DBBBF4FE-33AE-4E50-8251-BD3E0ED344AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{DBBBF4FE-33AE-4E50-8251-BD3E0ED344AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{DBBBF4FE-33AE-4E50-8251-BD3E0ED344AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{DBBBF4FE-33AE-4E50-8251-BD3E0ED344AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2FAF84FD-9609-4039-BE01-DA6B680279CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FAF84FD-9609-4039-BE01-DA6B680279CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FAF84FD-9609-4039-BE01-DA6B680279CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FAF84FD-9609-4039-BE01-DA6B680279CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{492B7238-D536-4F96-ACD3-BA062B2B2557}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{492B7238-D536-4F96-ACD3-BA062B2B2557}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{492B7238-D536-4F96-ACD3-BA062B2B2557}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{492B7238-D536-4F96-ACD3-BA062B2B2557}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC69649B-1BFD-4321-B5BF-76F521206575}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC69649B-1BFD-4321-B5BF-76F521206575}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC69649B-1BFD-4321-B5BF-76F521206575}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC69649B-1BFD-4321-B5BF-76F521206575}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

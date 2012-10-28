@@ -8,6 +8,7 @@ namespace TimelinePhoto.Service.Repositories
     {
         public const string IMAGE_HANDLER_URL = "http://timeline.local/Image.ashx";
         public const string IMAGE_ID_QUERYSTRING = "id";
+        public const string IMAGE_THUMBNAIL_QUERYSTRING = "thumb";
 
         public void AddToCache<T>(T item, string cacheKey, DateTime absoluteExpiration)
         {

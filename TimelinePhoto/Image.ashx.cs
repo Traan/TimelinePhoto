@@ -22,7 +22,7 @@ namespace TimelinePhoto
         public void ProcessRequest(HttpContext context)
         {
             context.Response.ContentType = "image/jpeg";
-            context.Response.BinaryWrite(_repository.GetImageData(context.Request.QueryString["id"]));
+            context.Response.BinaryWrite(_repository.GetImageData(context.Request.QueryString["id"], context.Request.QueryString["thumb"]));
         }
 
         public bool IsReusable

@@ -14,5 +14,7 @@ namespace TimelinePhoto.Service.DomainModels
         public string Caption { get; set; }
 
         public string Type { get; set; }
+
+        public Uri Thumbnail { get; set; }
     }
 }

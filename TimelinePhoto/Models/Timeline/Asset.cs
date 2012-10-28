@@ -18,12 +18,16 @@ namespace TimelinePhoto.Models.Timeline
         [DataMember(Name="type")]
         public string Type { get; set; }
 
+        [DataMember(Name = "thumbnail")]
+        public Uri Thumbnail { get; set; }
+
         public Asset(Service.DomainModels.Asset assset)
         {
             Media = assset.Media;
             Credit = assset.Credit;
             Caption = assset.Caption;
             Type = assset.Type;
+            Thumbnail = assset.Thumbnail;
         }
     }
 }

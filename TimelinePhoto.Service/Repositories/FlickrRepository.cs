@@ -53,7 +53,7 @@ namespace TimelinePhoto.Service.Repositories
         }
 
 
-        public byte[] GetImageData(string id)
+        public byte[] GetImageData(string id, string thumb)
         {
             throw new NotImplementedException();
         }

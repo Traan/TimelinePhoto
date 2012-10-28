@@ -9,6 +9,6 @@ namespace TimelinePhoto.Service.Repositories
     public interface ITimelinePhotoRepository
     {
         IEnumerable<Entry> GetEntries();
-        byte[] GetImageData(string id);
+        byte[] GetImageData(string id, string thumb);
     }
 }
